@@ -15,11 +15,7 @@
     "pixel": "0.x",
     "docs": "0.x"
   },
-  "dependencies": {
-    "vtex.pixel-interfaces": "1.x",
-    "vtex.css-handles": "0.x",
-    "vtex.native-types": "0.x"
-  },
+  "dependencies": {},
   "settingsSchema": {
     "title": "Iubenda",
     "type": "object",
