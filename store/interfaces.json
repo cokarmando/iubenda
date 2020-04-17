@@ -1,5 +1,8 @@
 {
-  "pixel.APPNAME": {
-    "component": "index"
+  "advertising-tracking-preferences": {
+    "component": "AdvertisingTrackingPreferences",
+    "content": {
+      "$ref": "app:vtex.iubenda#/definitions/AdvertisingTrackingPreferences"
+    }
   }
 }

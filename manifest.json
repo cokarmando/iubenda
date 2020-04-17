@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
+  "name": "iubenda",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Iubenda",
+  "description": "",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -12,22 +12,72 @@
     "free": true
   },
   "builders": {
-    "react": "3.x",
-    "store": "0.x",
     "pixel": "0.x",
     "docs": "0.x"
   },
   "dependencies": {
-    "vtex.pixel-interfaces": "1.x"
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.css-handles": "0.x",
+    "vtex.native-types": "0.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Iubenda",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
-        "type": "string"
+      "siteId": {
+        "title": "Site ID",
+        "type": "number"
+      },
+      "cookiePolicyId": {
+        "title": "Cookie Policy ID",
+        "type": "number"
+      },
+      "banner": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "title": "Position",
+            "type": "string",
+            "enum": [
+              "top",
+              "bottom",
+              "float-top-left",
+              "float-top-right",
+              "float-bottom-left",
+              "float-bottom-right",
+              "float-top-center",
+              "float-bottom-center",
+              "float-center"
+            ],
+            "enumNames": [
+              "Top",
+              "Bottom",
+              "Float top left",
+              "Float top right",
+              "Float bottom left",
+              "Float bottom right",
+              "Float top center (default)",
+              "Float bottom center",
+              "Float center"
+            ],
+            "default": "float-top-center"
+          },
+          "acceptButtonDisplay": {
+            "title": "Display \"Accept\" button",
+            "type": "boolean",
+            "default": true
+          },
+          "customizeButtonDisplay": {
+            "title": "Display \"Learn more and customize\" button",
+            "type": "boolean",
+            "default": true
+          },
+          "rejectButtonDisplay": {
+            "title": "Display \"Reject\" button",
+            "type": "boolean",
+            "default": true
+          }
+        }
       }
     }
   },
