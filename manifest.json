@@ -58,20 +58,10 @@
             ],
             "default": "float-top-center"
           },
-          "acceptButtonDisplay": {
-            "title": "Display \"Accept\" button",
-            "type": "boolean",
-            "default": true
-          },
-          "customizeButtonDisplay": {
-            "title": "Display \"Learn more and customize\" button",
-            "type": "boolean",
-            "default": true
-          },
           "rejectButtonDisplay": {
             "title": "Display \"Reject\" button",
             "type": "boolean",
-            "default": true
+            "default": false
           }
         }
       }

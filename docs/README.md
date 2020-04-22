@@ -1,3 +1,5 @@
+📢 Use this project, [contribute](https://github.com/vtex-apps/iubenda) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+
 # Ibuenda
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -6,20 +8,20 @@
 
 Manage consent preferences for the ePrivacy, GDPR, and CCPA. Integrated with the IAB TCF and US Privacy Framework.
 
-
-![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
+![image](https://user-images.githubusercontent.com/284515/80036701-a4b6f200-84c8-11ea-91fa-5c5f9d6f0e16.png)
 
 ## Configuration
 
-In this section, you first must **add the primary instructions** that will allow users to use the app in their store, such as [installing the app](https://vtex.io/docs/recipes/store/installing-an-app) and configuring it using the account's admin. 
+1. Install the app `vtex.iubenda`
+2. Open the app settings
+3. Add the Site ID and Cookie Policy ID and save.
 
-Remember to also **showcase any necessary disclaimer** related to the app in this section, such as the different behavior it may display during its configuration. 
+![image](https://user-images.githubusercontent.com/284515/80036904-08411f80-84c9-11ea-95e9-162a6bcc0ce4.png)
 
-## Modus Operandi *(not mandatory)*
 
-There are scenarios in which an app can behave differently in a store, according to its configuration. It's crucial then to go through these **behavioral changes** in this section, allowing users to fully understand the **practical application** of the app in their store.
+### Allow users to update their TCF preferences even after closing the cookie banner
 
-If you feel compelled to give further details, such as the app's **relationship with others**, don't hesitate to use this section. 
+Iubenda gives the option to let your visitors update their advertising tracking preferences even after closing the cookie banner. You can add a component to your store theme to make that possible. Use the [Iubenda Components](https://github.com/vtex-apps/iubenda-components) for that.
 
 ## Contributors ✨
 
