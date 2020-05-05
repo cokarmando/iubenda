@@ -18,6 +18,9 @@ Manage consent preferences for the ePrivacy, GDPR, and CCPA. Integrated with the
 
 ![image](https://user-images.githubusercontent.com/284515/80036904-08411f80-84c9-11ea-95e9-162a6bcc0ce4.png)
 
+### Recommended Iubenda configuration
+
+![image](https://user-images.githubusercontent.com/284515/81110526-07a97f80-8ef2-11ea-9689-6ef0a9f0376d.png)
 
 ### Allow users to update their TCF preferences even after closing the cookie banner
 
