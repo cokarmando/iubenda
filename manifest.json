@@ -28,6 +28,11 @@
         "title": "Cookie Policy ID",
         "type": "number"
       },
+      "consentOnScroll": {
+        "title": "Consent on scroll",
+        "type": "boolean",
+        "default": true
+      },
       "banner": {
         "type": "object",
         "properties": {
