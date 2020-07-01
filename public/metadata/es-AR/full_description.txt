@@ -12,10 +12,11 @@ Genere fácilmente un banner de cookies totalmente personalizable, obtenga el co
 
 ## Cómo configurar
 
-1 - Instala la aplicación desde VTEX App Store;
-2 - Agregue la Site ID y la Cookie Policy ID en los campos respectivos. Puedes encontrar el tuyo en la página de configuración de Iubenda;
-3 - Guarda tus cambios.
+1. Instala la aplicación desde VTEX App Store;
+2. Agregue la Site ID y la Cookie Policy ID en los campos respectivos. Puedes encontrar el tuyo en la página de configuración de Iubenda;
+3. Guarda tus cambios.
 
 ## Comentarios
 
 - Para usar el servicio, debe tener una cuenta Iubenda activa. Algunas funciones solo están disponibles para planes específicos.
+- Las instrucciones de instalación más detalladas están disponibles en https://vtex.io/docs/app/vtex.iubenda
