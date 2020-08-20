@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- New metadata for publishing on App Store
+- Crowdin.yml for localization
+
 ## [0.2.4] - 2020-08-18
 ### Fixed
 - Add billingOptions type and availableCountries
