@@ -3,7 +3,7 @@
   var iubBannerSettings = {}
   var lang = "en";
   try { iubBannerSettings = JSON.parse(window.decodeURIComponent("{{settings.banner}}")); } catch (e) {}
-  try { lang = document.querySelector('html').getAttribute('lang'); } catch (e) {}
+  try { lang = document.querySelector('html').getAttribute('lang').split('-')[0]; } catch (e) {}
   iubBannerSettings.acceptButtonDisplay = true;
   iubBannerSettings.customizeButtonDisplay = true;
 
