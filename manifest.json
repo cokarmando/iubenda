@@ -23,6 +23,7 @@
   "settingsSchema": {
     "title": "Iubenda",
     "type": "object",
+    "bindingBounded": true,
     "properties": {
       "siteId": {
         "title": "Site ID",
